@@ -1,7 +1,7 @@
 #Ruby design patterns
 
-##Factory
-##Observer
-##Proxy
-##Singleton
-##Strategy
+###Factory
+###Observer
+###Proxy
+###Singleton
+###Strategy
