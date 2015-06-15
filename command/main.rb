@@ -1,0 +1,8 @@
+require_relative 'composite_command'
+require_relative 'restart_command'
+require_relative 'shutdown_command'
+
+composite_commands = CompositeCommand.new
+composite_commands.add_command RestartCommand.new
+composite_commands.add_command ShutdownCommand.new
+composite_commands.execute
